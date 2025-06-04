@@ -3,7 +3,17 @@
 public class Main {
    public static void main(String[] args) {
 
-         Car informationCar = new Car();
+       /* JA-1 JA-2
+       Car carCard = new Car("Vokswagen", "T-Roc", 2025);
+
+       carCard.informationCar();
+
+        */
+
+
+       /* JA-3
+
+       Car informationCar = new Car();
 
          informationCar.setMarka("Volkswagen");
          informationCar.setModel("T-Roc");
@@ -13,6 +23,9 @@ public class Main {
        System.out.println("Model: " + informationCar.getModel());
        System.out.println("Yıl: " + informationCar.getYear());
 
+       */
 
    }
+
+
 }
