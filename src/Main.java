@@ -3,8 +3,16 @@
 public class Main {
    public static void main(String[] args) {
 
-         Car informationCar = new Car("Volkswagen" , "T-Roc" , 2025);
+         Car informationCar = new Car();
 
-         informationCar.carCard();
+         informationCar.setMarka("Volkswagen");
+         informationCar.setModel("T-Roc");
+         informationCar.setYear(2025);
+
+       System.out.println("Marka: " + informationCar.getMarka());
+       System.out.println("Model: " + informationCar.getModel());
+       System.out.println("Yıl: " + informationCar.getYear());
+
+
    }
 }

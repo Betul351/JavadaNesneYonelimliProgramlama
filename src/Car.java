@@ -4,16 +4,33 @@ public class Car {
     private String model;
     private int year;
 
-    public Car(String marka, String model, int year){
-        this.marka = marka;
-        this.model = model;
-        this.year = year;
+    public Car () {
+
     }
 
-    public void carCard() {
-        System.out.println("Marka: " + marka);
-        System.out.println("Model: " + model);
-        System.out.println("Yıl: " + year);
+    //getter (okuma)
+    public  String getMarka() {
+        return marka;
+    }
+    //setter (atama)
+    public void setMarka(String marka){
+        this.marka = marka;
+    }
+
+    public String getModel () {
+        return model;
+    }
+
+    public void setModel(String model){
+        this.model = model;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
     }
 
 }
