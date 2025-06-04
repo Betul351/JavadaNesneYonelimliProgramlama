@@ -77,5 +77,11 @@ public void informationCar() {
     }
 */
 
+/* JA-5
+    @Override
+    void start() {
+        System.out.println("Araç Satıldı");
+    }
+*/
 
 }

@@ -25,7 +25,15 @@ public class Main {
 
        */
 
+/* JA-5
+       Vehicle soldVehicle = new Vehicle();
+       soldVehicle.start();
+
+       Car soldCar = new Car();
+       soldCar.start();
+*/
+
+
+
    }
-
-
 }

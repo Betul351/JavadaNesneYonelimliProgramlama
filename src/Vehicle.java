@@ -11,4 +11,12 @@ public class Vehicle {
         return hiz;
     }
      */
+
+/*JA-5
+  void start() {
+      System.out.println("Satılık Araç");
+  }
+*/
+
+
 }
