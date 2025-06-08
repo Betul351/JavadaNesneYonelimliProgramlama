@@ -33,7 +33,35 @@ public class Main {
        soldCar.start();
 */
 
+/*JA-6
+Animal firstAnimal = new Animal().new Cat();
+Animal secondAnimal= new Animal().new Dog();
 
+firstAnimal.makeSound();
+secondAnimal.makeSound();
 
+*/
+
+/* JA-7
+
+      Calculator calculator = new Calculator();
+
+      int firstSummation = calculator.add(7,70);
+      System.out.println("İki sayının toplamı: " + firstSummation);
+
+      int secondSummation = calculator.add(5,12,13);
+      System.out.println("Üç sayının toplamı: " + secondSummation);
+
+*/
+
+/* JA-8
+
+      int multiply = Calculator.multiply(6,8);
+      System.out.println("Çarpma işleminin sonucu: " + multiply);
+
+*/
+
+      Student student =new Student ("Deniz",17,510);
+      student.display();
    }
 }
