@@ -61,7 +61,23 @@ secondAnimal.makeSound();
 
 */
 
+/* JA-9
       Student student =new Student ("Deniz",17,510);
       student.display();
+
+*/
+
+/*JA-10
+      Shape circle = new Circle();
+      Shape rectangle = new ()Rectangle();
+
+      circle.draw();
+      rectangle.draw();
+*/
+ Animal cat = new Cat();
+ Animal dog = new Dog();
+
+ cat.sound();
+ dog.sound();
    }
 }

@@ -1,4 +1,5 @@
-public class Animal {
+interface Animal {
+/*JA-6
     void makeSound() {
         System.out.println("Animals were singing on Ali father farm"  );
     }
@@ -21,5 +22,28 @@ public class Animal {
     }
     // Ama şu an sınıf içerisinde sınıf olduğu için mainde
     // Animal firstAnimal = new Animal().new Cat(); şeklinde
-    // çağırdık.
+    // çağırdık
+
+ */
+
+
+
+
+
+
+    void sound();
+}
+
+class Cat implements Animal{
+    @Override
+    public void sound(){
+        System.out.println("Miyav miyav");
+    }
+}
+
+class Dog implements Animal{
+    @Override
+    public void sound(){
+        System.out.println("Hav hav");
+    }
 }
